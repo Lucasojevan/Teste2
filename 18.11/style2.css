@@ -1,0 +1,16 @@
+*{
+    background-color: #999;
+    padding-left: 4px;
+   
+}
+
+#titulo{  
+   text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hinos{
+    text-decoration: none;
+    color: black;
+}
+
