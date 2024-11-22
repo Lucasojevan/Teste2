@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+
+.pagina1{ 
+    background-color: #999;
+}
+
+.direcionador{ 
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.formula1{
+    size: 0px;
+}
+.img{
+    width: 80px;
+
+}
+
+.circuito {
+
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+
+}
+.img1{
+
+    width: 50%;
+}
+
+.topo{
+
+    display: flex;
+    list-style: none;
+    margin: 6px;
+    padding: 4px;
+    font-size: 25px;    
+    justify-content: space-between;
+    align-items: center;
+}
+.topnav{
+    background-color: red;
+   border: 2px solid black; 
+}
+
+.titulo1{
+
+   text-align: center;
+}
+
+.textomonaco{ 
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.texto1{
+    margin: 50px;
+    text-align:justify;
+    font-family: "Lato", sans-serif;
+    background-color: #ffffff;
+    border: solid 2px black;
+    padding: 20px;
+
+}
+
