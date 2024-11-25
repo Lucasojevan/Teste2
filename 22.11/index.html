@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce de Tênis</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light text-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Tênis Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#products">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Carrinho</a>
+                    </li>
+                </ul>
+                <button class="btn btn-secondary ms-3" id="toggle-dark-mode">Modo Escuro</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>Bem-vindo ao Tênis Shop</h1>
+        <p>Encontre os melhores tênis para você</p>
+    </header>
+
+    <main class="container my-5" id="products">
+        <h2 class="text-center mb-4">Produtos</h2>
+        <div class="row g-4">
+            <!-- Produto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="zara.png" class="card-img-top" alt="Tênis 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tenis Zara</h5>
+                        <p class="card-text">R$ 299,90</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Tênis 1" data-price="199.90">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="asuna3.png" class="card-img-top" alt="Tênis 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Chinelo Asuna 3.0</h5>
+                        <p class="card-text">R$ 399,90</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Tênis 2" data-price="249.90">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="e6c2ab4b_2000x_3116b28f-f4bc-4881-9aa3-7dd6e4cfc92b1-497ce13df52b8bb25716839015985341-1024-1024.jpg" class="card-img-top" alt="Tênis 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tenis Nike</h5>
+                        <p class="card-text">R$ 1000,00</p>
+                        <button class="btn btn-primary add-to-cart" data-name="Tênis 3" data-price="299.90">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
