@@ -1,0 +1,234 @@
+*{
+    
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main{
+margin: 150px;
+
+}
+
+
+.topo {
+background-color: #1824B1 ;
+color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-around;
+padding: 10px;
+font-size: 20px;
+position: relative;
+
+}
+.cabeca{
+    margin-left:190px ;
+}
+
+.nav{
+    background-color: #2C71FE;
+    color: white;
+    font-family: font;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px
+    20px;
+    
+    
+}
+.titulo{
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    font-size: 50px;
+}
+.pag{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-right: px;
+    font-size: 16px;
+    position: relative;
+    right: 150px;
+    font-size: 25px;
+}
+.corpo{
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+.titulo1{
+    font-size: 55px;
+}
+.titulo2{
+    font-size: 50px;
+    padding-bottom: 150px;
+}
+.linha{
+   color: blue;
+   background-color: blue;
+   height: 1px;
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+    
+}
+.texto1{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}   
+.imagem1{
+    height: 700px;
+}
+.imagem2{
+    height: 300px;
+    margin-left: 15px;
+}
+
+.produtos {
+
+    display: flex;
+    flex-direction: row;
+   align-items: self-end;
+   padding-bottom: 80px;
+   
+}
+
+.produto1,.produto2,.produto3{
+
+margin-left:20px ;
+
+}
+
+.produto1 img ,.produto2 img,.produto3 img{
+    width: 350px;
+    
+    padding-top:30px ;
+    }
+
+.produto1 {
+    border-top:solid #A97EFD 8px;
+   
+   background-color: rgb(231, 231, 231);
+   
+}
+
+.produto2 {
+    border-top:solid #F02150 8px;
+    font-size: 17px;
+    
+   
+
+    background-color: rgb(231, 231, 231);
+}
+
+.produto3 {
+    border-top:solid #67D7E7 8px;
+    
+    background-color: rgb(231, 231, 231);
+   
+}
+
+.produtos {
+    
+}
+
+.paf {
+
+    padding: 50px;
+    font-size: 45px;
+    color: gray;
+    
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  rgb(228, 227, 227);
+    padding: 60px;
+    
+}
+
+.cobre, .prata, .ouro {
+
+    border: solid white 4px;
+    padding-left: 80px;
+    padding-right:80px ; 
+    padding-bottom:10px ;
+    padding-top: 50px;   
+}
+
+.cobret, .pratat, .ourot {
+
+    font-size: 70px;
+    color: rgb(136, 135, 135) ;
+    text-align: center;
+    border-bottom: 2px solid white;
+    
+    
+}
+
+.precop {
+
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+
+
+
+}
+.listapreco ul {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+
+.listapreco li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+.listapreco li::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #1824B1;
+
+
+}
+
+.linha3 {
+
+    height: 2px;
+    color: white;
+    background-color: white;
+    width: 190px;
+
+    
+}
+
+.botao{
+
+    font-size: 50px;
+    text-align: center;
+    color:black ;
+    border: 3px solid black;
+}
+
+
+
+
+
